@@ -1,0 +1,16 @@
+{
+    "hoursOfSleep": [
+        {
+            "id": 0,
+            "quant": 7.5,
+            "calcDiffMovimentsPerSleep": 0.4
+        }
+    ],
+    "diffMovimentsPerSleep": [
+        {
+            "id": 0,
+            "movementTime": "01:00",
+            "quantMoviments": 4
+        }
+    ]
+}
