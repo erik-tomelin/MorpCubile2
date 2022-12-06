@@ -1,4 +1,4 @@
-import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 
 import {
     ApexAxisChartSeries,
@@ -12,7 +12,7 @@ export type ChartOptions = {
     stroke: ApexStroke;
     dataLabels: ApexDataLabels;
     markers: ApexMarkers;
-    tooltip: any; // ApexTooltip;
+    tooltip: any;
     yaxis: ApexYAxis;
     grid: ApexGrid;
     legend: ApexLegend;
@@ -20,11 +20,11 @@ export type ChartOptions = {
 };
 
 @Component({
-    selector: 'example',
-    templateUrl: './example.component.html',
-    encapsulation: ViewEncapsulation.None
+    selector: 'dashboard',
+    templateUrl: './dashboard.component.html',
 })
-export class ExampleComponent {
+
+export class DashboardComponent {
     @ViewChild("chart") chart: ChartComponent;
     public chartOptions: Partial<ChartOptions>;
 
