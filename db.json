@@ -1,16 +1,31 @@
 {
-    "hoursOfSleep": [
-        {
-            "id": 0,
-            "quant": 7.5,
-            "calcDiffMovimentsPerSleep": 0.4
-        }
-    ],
-    "diffMovimentsPerSleep": [
-        {
-            "id": 0,
-            "movementTime": "01:00",
-            "quantMoviments": 4
-        }
-    ]
+  "hoursOfSleep": [
+    {
+      "id": 0,
+      "quant": 7.5,
+      "calcDiffMovimentsPerSleep": 0.4
+    },
+    {
+      "quant": 8,
+      "calcDiffMovimentsPerSleep": 0.6,
+      "id": 4
+    },
+    {
+      "quant": 10,
+      "calcDiffMovimentsPerSleep": 0.8,
+      "id": 5
+    },
+    {
+      "quant": 10,
+      "calcDiffMovimentsPerSleep": 0.8,
+      "id": 6
+    }
+  ],
+  "diffMovimentsPerSleep": [
+    {
+      "id": 0,
+      "movementTime": "01:00",
+      "quantMoviments": 4
+    }
+  ]
 }
